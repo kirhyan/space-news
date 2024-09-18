@@ -1,0 +1,44 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.article {
+  border: solid black 2px;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.titular {
+  font-size: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.text {
+  text-align: justify;
+  padding-right: 50px;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  border: solid black 1px;
+}
